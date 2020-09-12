@@ -5,37 +5,32 @@
 
 export class LinkedList {
   constructor(){
-     this.list = []
+    
     
   }
-  push(num) {
-  return this.list.push(num)
+  push() {
+  
     
   }
 
-  pop(num) {
-   return this.list.pop(num)
+  pop() {
+  
   
   }
 
-  shift(num) {
-   return this.list.shift(num)
+  shift() {
+  
   }
 
-  unshift(num) {
-   return this.list.unshift(num)
+  unshift() {
+   
   }
 
-  delete(num) {
-    const index = this.list.findIndex((ele, i) => {
-      if (ele === num){
-        return true
-      }
-    })
-    this.list.splice(index, index === -1 ? 0 : 1) 
+  delete() {
+  
   }
 
   count() {
-    return this.list.length
+    
   }
 }
